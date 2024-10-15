@@ -1,7 +1,7 @@
 version: '2'
 services:
   proxy_pool:
-    build: .
+    image: nnnnzs/proxy_pool
     container_name: proxy_pool
     network_mode: "host"
     ports:
